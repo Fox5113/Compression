@@ -2,7 +2,6 @@
 import math
 
 
-
 if __name__ == '__main__':
     a =  float(input("a: "))
     b =  float(input("b: "))
@@ -10,6 +9,7 @@ if __name__ == '__main__':
 
 
     D =  b ** 2 - 4 * a * c
+
 
     if D < 0 :
         print("No solutions")

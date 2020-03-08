@@ -1,9 +1,10 @@
 #!/bin/python3
 
+
 import random
 
-if __name__ == '__main__':
 
+if __name__ == '__main__':
     target = random.randint(1, 100)# if  need any number  target = random.randint()
     shot =  -1
     count_shot = 1

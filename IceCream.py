@@ -1,8 +1,6 @@
 #!/bin/python3
 
 
-
-
 if __name__ == '__main__':
    # while True: #if need infinitely
         count_ice_cream = int(input(">>>"))
