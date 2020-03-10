@@ -4,18 +4,18 @@
 if __name__ == '__main__':
    # while True: #if need infinitely
         count_ice_cream = int(input(">>>"))
-
+        if (count_ice_cream == 0):
+            print("You dont buy zero ice cream")
         while True:
             if count_ice_cream % 5 == 0  or count_ice_cream % 3  == 0:
                 print("Yes", end="")
                 break
-            if count_ice_cream > 5 and  count_ice_cream - 5  >= 5 :
-                count_ice_cream -=5
+            elif count_ice_cream > 5 and  count_ice_cream - 5  >= 5 :
+                count_ice_cream -= 5
             elif count_ice_cream > 5 and  count_ice_cream - 5  < 5 :
-                count_ice_cream -=3
+                count_ice_cream -= 3
             elif count_ice_cream > 5 and  count_ice_cream - 5  <= 3:
-                count_ice_cream -=3
-            
+                count_ice_cream -= 3
             elif  (count_ice_cream > 3 and  count_ice_cream < 5 ) or  count_ice_cream < 3 :
                 print("No", end="")
                 break
@@ -23,5 +23,4 @@ if __name__ == '__main__':
                 print("Yes", end="")
                 break
             else:
-                print(count_ice_cream)
-            
+                pass
